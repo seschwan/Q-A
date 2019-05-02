@@ -13,6 +13,7 @@
 		EF2F515E227AA0F600F5E345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2F515D227AA0F600F5E345 /* Assets.xcassets */; };
 		EF2F5161227AA0F600F5E345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2F515F227AA0F600F5E345 /* LaunchScreen.storyboard */; };
 		EF2F516A227AA17C00F5E345 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F5169227AA17C00F5E345 /* Question.swift */; };
+		EF2F516C227AA7B100F5E345 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F516B227AA7B100F5E345 /* QuestionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF2F5160227AA0F600F5E345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2F5162227AA0F600F5E345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF2F5169227AA17C00F5E345 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		EF2F516B227AA7B100F5E345 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				EF2F5156227AA0F500F5E345 /* AppDelegate.swift */,
 				EF2F5158227AA0F500F5E345 /* ViewController.swift */,
 				EF2F5169227AA17C00F5E345 /* Question.swift */,
+				EF2F516B227AA7B100F5E345 /* QuestionController.swift */,
 				EF2F515D227AA0F600F5E345 /* Assets.xcassets */,
 				EF2F5162227AA0F600F5E345 /* Info.plist */,
 			);
@@ -149,6 +152,7 @@
 				EF2F516A227AA17C00F5E345 /* Question.swift in Sources */,
 				EF2F5159227AA0F500F5E345 /* ViewController.swift in Sources */,
 				EF2F5157227AA0F500F5E345 /* AppDelegate.swift in Sources */,
+				EF2F516C227AA7B100F5E345 /* QuestionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
