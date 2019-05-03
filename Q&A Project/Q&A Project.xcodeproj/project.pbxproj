@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		EF2F5157227AA0F500F5E345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F5156227AA0F500F5E345 /* AppDelegate.swift */; };
-		EF2F5159227AA0F500F5E345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F5158227AA0F500F5E345 /* ViewController.swift */; };
 		EF2F515C227AA0F500F5E345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2F515A227AA0F500F5E345 /* Main.storyboard */; };
 		EF2F515E227AA0F600F5E345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2F515D227AA0F600F5E345 /* Assets.xcassets */; };
 		EF2F5161227AA0F600F5E345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2F515F227AA0F600F5E345 /* LaunchScreen.storyboard */; };
 		EF2F516A227AA17C00F5E345 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F5169227AA17C00F5E345 /* Question.swift */; };
 		EF2F516C227AA7B100F5E345 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F516B227AA7B100F5E345 /* QuestionController.swift */; };
+		EF2F516E227C030A00F5E345 /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F516D227C030A00F5E345 /* QuestionsTableViewController.swift */; };
+		EF2F5171227C072900F5E345 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F5170227C072900F5E345 /* QuestionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF2F5153227AA0F500F5E345 /* Q&A Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Q&A Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2F5156227AA0F500F5E345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF2F5158227AA0F500F5E345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF2F515B227AA0F500F5E345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF2F515D227AA0F600F5E345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2F5160227AA0F600F5E345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2F5162227AA0F600F5E345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF2F5169227AA17C00F5E345 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		EF2F516B227AA7B100F5E345 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
+		EF2F516D227C030A00F5E345 /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
+		EF2F5170227C072900F5E345 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 			children = (
 				EF2F5168227AA14D00F5E345 /* StoryBoards */,
 				EF2F5156227AA0F500F5E345 /* AppDelegate.swift */,
-				EF2F5158227AA0F500F5E345 /* ViewController.swift */,
 				EF2F5169227AA17C00F5E345 /* Question.swift */,
 				EF2F516B227AA7B100F5E345 /* QuestionController.swift */,
+				EF2F5170227C072900F5E345 /* QuestionTableViewCell.swift */,
+				EF2F516F227C032500F5E345 /* ViewControllers */,
 				EF2F515D227AA0F600F5E345 /* Assets.xcassets */,
 				EF2F5162227AA0F600F5E345 /* Info.plist */,
 			);
@@ -76,6 +79,14 @@
 				EF2F515F227AA0F600F5E345 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		EF2F516F227C032500F5E345 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F516D227C030A00F5E345 /* QuestionsTableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF2F516A227AA17C00F5E345 /* Question.swift in Sources */,
-				EF2F5159227AA0F500F5E345 /* ViewController.swift in Sources */,
+				EF2F5171227C072900F5E345 /* QuestionTableViewCell.swift in Sources */,
 				EF2F5157227AA0F500F5E345 /* AppDelegate.swift in Sources */,
 				EF2F516C227AA7B100F5E345 /* QuestionController.swift in Sources */,
+				EF2F516E227C030A00F5E345 /* QuestionsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
